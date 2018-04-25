@@ -8,12 +8,13 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.shoppingCart.app.exception.ProductNotFoundException;
-import com.shoppingCart.app.model.Product;
-import com.shoppingCart.app.service.ProductService;
+import exception.ProductNotFoundException;
+import model.Product;
+import service.ProductService;
 
 
 @RestController

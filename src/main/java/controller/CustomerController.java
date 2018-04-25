@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.shoppingCart.app.exception.AuthenticationFailedException;
-import com.shoppingCart.app.model.Customer;
-import com.shoppingCart.app.service.CustomerService;
+import exception.AuthenticationFailedException;
+import model.Customer;
+import service.CustomerService;
 
 @RestController
 public class CustomerController {

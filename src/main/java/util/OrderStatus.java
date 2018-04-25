@@ -1,5 +1,7 @@
 package util;
 
-public class OrderStatus {
+public enum OrderStatus {
+
+	NEW, DELIVERED, CLOSED;
 
 }

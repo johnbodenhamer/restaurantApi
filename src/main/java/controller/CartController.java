@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.shoppingCart.app.model.Cart;
-import com.shoppingCart.app.service.CartService;
+import model.Cart;
+import service.CartService;
 
 @RestController
 public class CartController {
